@@ -1,0 +1,325 @@
+.servicespage {
+    width: 80%;
+    margin: 0 auto;
+
+    .titletext {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        h1 {
+            font-weight: 600;
+            font-size: 46px;
+            line-height: 62.64px;
+            letter-spacing: 1px;
+        }
+
+        .as {
+            margin: 30px 40px 20px 40px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 62.64px;
+            letter-spacing: 1px;
+        }
+
+        p {
+            text-align: center;
+            width: 100%;
+            font-weight: 400;
+            font-size: 20px;
+            color: #828282;
+        }
+
+        .line {
+            width: 100px;
+            height: 3px;
+            background-color: #4F6DF5;
+            margin: 20px;
+        }
+
+        .menu {
+            display: grid;
+            justify-content: center;
+            grid-gap: 80px;
+            width: 100%;
+            height: 100%;
+            padding: 20px;
+
+            div:nth-child(1) {
+                grid-template-areas: a1;
+            }
+
+            div:nth-child(2) {
+                grid-template-areas: a2;
+            }
+
+            div:nth-child(3) {
+                grid-template-areas: a3;
+            }
+
+            div:nth-child(4) {
+                grid-template-areas: a4;
+            }
+
+            div:nth-child(5) {
+                grid-template-areas: a5;
+            }
+
+            div:nth-child(6) {
+                grid-template-areas: a6;
+            }
+
+            grid-template-areas: 'a1 a2 a3'
+            'a4 a5 a6';
+        }
+
+        .window1,
+        .window2,
+        .window3,
+        .window4,
+        .window5,
+        .window6 {
+            grid-gap: 10px;
+            width: 400px;
+            height: 600px;
+            background-color: rgba(79, 109, 245, 0.06);
+            border-radius: 20px;
+            box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+        }
+
+        .imagebox {
+            display: flex;
+            justify-content: center;
+            margin: 50px 0px;
+
+            .v11,
+            .v12,
+            .v13,
+            .v14,
+            .v15,
+            .v16 {
+                width: 100px;
+                height: 100px;
+                position: absolute;
+            }
+
+            .frame {
+                position: relative;
+                width: 200px;
+                height: 200px;
+                background-image: url('../../pictures/Ellipse\ 19.png');
+
+                .v11 {
+                    background-image: url('../../pictures/Group\ \(5\).png');
+                    left: 33%;
+                    top: 25%;
+                }
+
+                .v12 {
+                    background-image: url('../../pictures/Group\ \(1\).png');
+                    left: 27%;
+                    top: 25%;
+                }
+
+                .v13 {
+                    background-image: url('../../pictures/Group\ \(2\).png');
+                    left: 27%;
+                    top: 25%;
+                }
+
+                .v14 {
+                    background-image: url('../../pictures/Group.png');
+                    left: 25%;
+                    top: 25%;
+                }
+
+                .v15 {
+                    background-image: url('../../pictures/Group\ \(3\).png');
+                    left: 30%;
+                    top: 22%;
+                }
+
+                .v16 {
+                    background-image: url('../../pictures/Group\ \(4\).png');
+                    left: 25%;
+                    top: 26%;
+                }
+            }
+
+        }
+
+        .textbox {
+            width: 90%;
+            margin: 0 auto;
+        }
+    }
+
+}
+
+.why {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+
+    .imagebox {
+        margin-top: 100px;
+        width: 70%;
+        height: 960px;
+
+        .image {
+            width: 100%;
+            height: 100%;
+            background-image: url('../../pictures/c9.png');
+        }
+    }
+
+    .textbox {
+        margin-top: 100px;
+        width: 50%;
+        background-color: #F7F9FB;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .text {
+            padding: 25px;
+            width: 600px;
+            height: 500px;
+
+            .text1 {
+                h1 {
+                    font-weight: 400;
+                    font-size: 40px;
+                    line-height: 54.47px;
+                    letter-spacing: 1px;
+                }
+                p{
+                    margin-top: 10px;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 24.51px;
+                    letter-spacing: 1px;
+                    color: #828282;
+                }
+            }
+
+            .text2 {
+                margin-top: 35px;
+                .statistic{
+                    p{
+                        margin-top: 40px;
+                        color: #4F6DF5;
+                    }
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                .percent,.percent1,.percent2,.percent3{
+                    height: 8px;
+                    border-radius: 10px;
+                    margin-top: 10px;
+                }
+                .percent{
+                    background-image: url('../../pictures/Rectangle.png');
+                    width: 570px;
+                }
+                .percent1{
+                    background-image: url('../../pictures/Rectangle.png');
+                    width: 500px;
+                }
+                .percent2{
+                    background-image: url('../../pictures/Rectangle.png');
+                    width: 450px;
+                }
+                .percent3{
+                    background-image: url('../../pictures/Rectangle.png');
+                    width: 350px;
+                }
+            }
+        }
+    }
+}
+.process{
+    width: 100%;
+    height: 100%;
+    .textblock{
+        width: 100%;
+        margin-top: 100px;
+        .text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h1{
+
+            }
+            .line{
+                margin: 10px 0px 30px 0px;
+                width: 100px;
+                height: 3px;
+                background-color: #4F6DF5;
+            }
+            p{
+                width: 35%;
+                text-align: center;
+            }
+        }
+    }
+    .imgblock{
+        display: flex; 
+        justify-content: space-around;
+        margin: 100px 0px;   
+        .first{
+            width: 200px;
+            height: 200px;
+            position: relative;
+        }
+        .img{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 100px;
+            height: 100px;
+            background-image: url('../../pictures/Group\ \(4\).png');
+        }
+        .img1{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 100px;
+            height: 100px;
+            background-image: url('../../pictures/Group\ \(7\).png');
+        }
+        .img2{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 100px;
+            height: 100px;
+            background-image: url('../../pictures/Group\ \(1\).png');
+        }
+        .img3{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 150px;
+            height: 150px;
+            background-image: url('../../pictures/Group\ \(6\).png');
+        }
+        .img4{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 150px;
+            height: 150px;
+            background-image: url('../../pictures/Group\ \(8\).png');
+        }
+    }
+}

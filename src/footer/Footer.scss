@@ -1,0 +1,156 @@
+.footer {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(37, 37, 37, 0.97);
+    color: #F0F0F0;
+    padding-top: 50px;
+
+    .info {
+        display: flex;
+
+        .infoblock {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+
+            .h1 {
+                font-weight: 600;
+                font-size: 28px;
+                line-height: 38.13px;
+                margin-bottom: 50px;
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 60px;
+                margin-top: 30px;
+            }
+
+            .ofninfo,
+            .services,
+            .links,
+            .contact {
+                width: 25%;
+                margin: 0px 30px 0px 50px;
+            }
+
+            .first,
+            .second,
+            .third {
+                display: flex;
+            }
+
+            .first {
+                .image {
+                    background-image: url('../pictures/mail.png');
+                    top: 78%;
+                    left: 60%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+
+            .second {
+                .image {
+                    background-image: url('../pictures/phon.png');
+                }
+            }
+
+            .third {
+                .image {
+                    background-image: url('../pictures/geo.png');
+                    height: 40px;
+                }
+            }
+
+            .img {
+                margin: 45px 12px 0px 0px;
+                min-width: 30px;
+                height: 30px;
+                position: relative;
+            }
+
+            .image {
+                width: 30px;
+                height: 30px;
+                position: absolute;
+                background-repeat: no-repeat;
+
+            }
+        }
+    }
+
+    .social {
+        margin: 50px 0px 30px 50px;
+
+        .links {
+            display: flex;
+
+            .link {
+                margin-top: 10px;
+                width: 30px;
+                height: 30px;
+                display: flex;
+                
+
+                .link1,
+                .link2,
+                .link3,
+                .link4 {
+                    position: relative;
+                    width: 30px;
+                    height: 30px;
+                    margin: 0px 20px 0px 0px;
+                }
+
+                .pickture {
+                    width: 30px;
+                    height: 30px;
+                    background-repeat: no-repeat;
+                }
+
+                .link1 {
+
+                    .pickture {
+                        background-image: url('../pictures/search\ 1.png');
+                    }
+                }
+
+                .link2 {
+
+                    .pickture {
+                        background-image: url('../pictures/instagram-1.png');
+                    }
+                }
+
+                .link3 {
+
+                    .pickture {
+                        background-image: url('../pictures/linkedin.png');
+                    }
+                }
+
+                .link4 {
+
+                    .pickture {
+                        background-image: url('../pictures/whatsapp\ \(1\)\ 1.png');
+                    }
+                }
+            }
+        }
+    }
+    .copyright{
+        background-color: #1F1F1F;
+        .copyrighttext{
+            margin: 0px 20px 0px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            p{
+                font-weight: 400;
+                font-size: 24px;
+            }
+        }
+    }
+}
